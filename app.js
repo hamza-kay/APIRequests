@@ -1,4 +1,4 @@
-//Promise chanining
+//Promise chaining
 
 getLocation().then((data) => {
     return getCountry(data.country)
